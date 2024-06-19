@@ -62,7 +62,6 @@
 }
 
 /* TELAS VIEW PORT MIN: 501PX E MAX: 767PX*/
-
 @media (max-width: 767px) {
     #showcase {
         height: 1000px;
@@ -96,8 +95,7 @@
 }
 
 
-/* MOBILIE VIEW PORT 601PX */
-
+/* MOBILIE VIEW PORT 501PX */
 @media (max-width: 601px) {
     #navbar {
         flex-direction: column;
@@ -167,5 +165,46 @@
 
 }
 
+/* MOBILIE VIEW PORT 460PX */
+@media (max-width: 460px) {
+    
+    #showcase {
+        height: 1200px;
+    }
 
+    #showcase .showcase-content {
+        height: 1200px;
+        top: 127px;
+    }
+
+
+}
+
+/* MOBILIE ALTURA DA VIEW PORT 845PX */
+@media (max-height: 845px) {
+    
+    #showcase {
+        height: 19200px;
+        top: 150px
+    }
+
+    #showcase .showcase-content {
+        height: 1200px;
+
+    }
+}
+
+/* MOBILIE ALTURA DA VIEW PORT 568PX */
+@media (max-height: 568px) {
+    
+    #showcase {
+        height: 1200px;
+        top: 140px
+    }
+
+    #showcase .showcase-content {
+        height: 1200px;
+
+    }
+}
 
