@@ -165,7 +165,7 @@
 
 }
 
-/* MOBILIE VIEW PORT 460PX */
+/* MOBILIE VIEW PORT 401PX */
 @media (max-width: 460px) {
     
     #showcase {
@@ -177,20 +177,12 @@
         top: 127px;
     }
 
+    .l-heading {
+        font-size: 1.7rem;
+    }
+
 
 }
 
-/* MOBILIE ALTURA DA VIEW PORT 568PX */
-@media (max-height: 406px) {
-    
-    #showcase {
-        height: 1600px;
-        top: 140px
-    }
 
-    #showcase .showcase-content {
-        height: 1600px;
-
-    }
-}
 
