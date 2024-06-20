@@ -180,18 +180,16 @@
 
 }
 
-
-
 /* MOBILIE ALTURA DA VIEW PORT 568PX */
-@media (max-height: 568px) {
+@media (max-height: 406px) {
     
     #showcase {
-        height: 1200px;
+        height: 1600px;
         top: 140px
     }
 
     #showcase .showcase-content {
-        height: 1200px;
+        height: 1600px;
 
     }
 }
