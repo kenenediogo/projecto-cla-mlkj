@@ -62,14 +62,14 @@
 }
 
 /* TELAS VIEW PORT MIN: 501PX E MAX: 767PX*/
-/*@media (max-width: 767px) {*/
-@media (max-width: 767px) {
+/* @media (max-width: 768px) { */
+@media (602px <= width <= 768px) {
     #showcase {
-        height: 1000px;
+        height: 1100px;
     }
 
     #showcase .showcase-content {
-        height: 1000px;
+        height: 1100px;
 
     }
 
@@ -96,8 +96,9 @@
 }
 
 
-/* MOBILIE VIEW PORT 501PX */
-@media (max-width: 601px) {
+/* MOBILIE VIEW PORT 601PX */
+/* @media (max-width: 601px) { */
+@media (width <= 601px) {
     #navbar {
         flex-direction: column;
         align-items: center;
