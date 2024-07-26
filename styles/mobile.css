@@ -98,11 +98,11 @@
     }
 
     #showcase {
-        height: 600px;
+        height: 800px;
     }
 
     #showcase .showcase-content {
-        height: 600px;
+        height: 800px;
         top: 127px;
     }
 
@@ -146,11 +146,11 @@
 @media (max-width: 460px) {
     
     #showcase {
-        height: 700px;
+        height: 1000px;
     }
 
     #showcase .showcase-content {
-        height: 700px;
+        height: 1000px;
         top: 125px;
     }
 
