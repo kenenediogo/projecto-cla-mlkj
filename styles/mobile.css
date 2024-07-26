@@ -42,7 +42,7 @@
 
 /* TELAS VIEW PORT MIN: 501PX E MAX: 767PX*/
 /* @media (max-width: 768px) { */
-@media (602px <= width <= 768px) {
+@media (601px <= width <= 768px) {
     #showcase {
         height: 1100px;
     }
@@ -103,7 +103,7 @@
 
     #showcase .showcase-content {
         height: 800px;
-        top: 127px;
+        top: 128.5px;
     }
 
     #showcase .showcase-content h1 {
