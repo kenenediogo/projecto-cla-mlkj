@@ -23,7 +23,6 @@ p {
     margin: 0.75rem 0;
 }
 
-
 /* CLASSES UTILITÁRIAS: para serem usadas em estilos iguais */
 
 .container {
@@ -46,6 +45,11 @@ p {
 
 .text-primary {
     color: #a90404;
+}
+
+.text-primary1 {
+    color: #f4f4f4;
+    font-size: 1.2rem;
 }
 
 .l-heading {
@@ -152,6 +156,18 @@ p {
     z-index: 1; /* Serve para manter a navbar por cima de todos elementos */
 }
 
+#navbar h1 {
+    display: flex;
+    align-items: center;
+}
+
+#navbar img {
+    width: 45px;
+    height: auto;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
 #navbar ul {
     display: flex;
     list-style: none;
@@ -198,7 +214,7 @@ p {
 
 /* SHOWCASE */
 #showcase {
-    background: #333 url("../imagem/pag1-secatedral-png1.png") no-repeat center center/cover;
+    background: #333 url("../imagem/carrinho-compras-1.jpg") no-repeat center center/cover;
     height: 100vh;
     color: #fff;
 }
@@ -225,14 +241,14 @@ p {
     padding-bottom: 2rem;
 }
 
-/* SECTION: Mística, Simbologia e Dimensões do Caminheiro */
+/* SECTION: O QUE FAZEMOS */
 
-#simbology .items {
+#services .items {
     display: flex;
     padding: 1rem;
 }
 
-#simbology .items .item {
+#services .items .item {
     flex: auto;
     text-align: center;
     padding: 1rem;
@@ -241,12 +257,11 @@ p {
 
 }
 
-#simbology .items .item h3 {
+#services .items .item h3 {
     padding: 1rem;
 }
 
-#simbology .items .item i {
-    background-color: #000000;
+#services .items .item i {
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
@@ -262,16 +277,16 @@ p {
 }
 
 #team .team-img {
-    background: #333 url("../imagem/escuteiros-h.jpeg") no-repeat center center/cover;
+    background: #333 url("../imagem/foto-ivy-0.jpg") no-repeat center center/cover;
 }
 
-/* SECTION: DIMENTIONS*/
-#dimensions .items {
+/* SECTION: CLIENTES */
+#clients .items {
     display: flex;
     padding: 1rem;
 }
 
-#dimensions .items .item {
+#clients .items .item {
     flex: auto;
     text-align: center;
     padding: 1rem;
@@ -280,51 +295,17 @@ p {
 
 }
 
-#dimensions .items .item h3 {
+#clients .items .item h3 {
     padding: 1rem;
 }
 
-#dimensions .items .item i {
+#clients .items .item i {
     background-color: #000000;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
 
-/* SECTION: FACEIS */
-
-#faceis .items {
-    display: flex;
-}
-
-
-#faceis .items img {
-    display: block;
-    margin: auto;
-    width: 40%;
-    margin-top: 1.5rem;
-}
-
-#faceis .items img:hover {
-    transform: scale(1.3);
-    transition: 1s;
-}
-
-#faceis .items h3 {
-    text-align: center;
-    margin: 1rem 0;
-    color:#000000
-}
-
-#faceis .items h3:hover {
-    color:#a90404;
-    color: #fff;
-}
-
-#faceis .items a {
-    text-decoration: none;
-    color:#000000;
-}
 
 /* SECTION: CONTACTO E LOCALIZAÇÃO */
 #contact {
@@ -362,3 +343,6 @@ p {
     width: 100%;
     height: 100%;
 } 
+
+/* NOVAS STYLES */
+

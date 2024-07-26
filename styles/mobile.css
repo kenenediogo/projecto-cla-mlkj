@@ -1,64 +1,43 @@
-#simbology .items {
+#services .items {
     display: block;
     padding: 1rem;
 }
 
 /* ALINHAR OS ÍCONES A ESQUERDA*/
-#simbology .items .item {
+#services .items .item {
     display: flex;
     text-align: left;
 }
 
 /* POSICIONAR ÍCONES */
-#simbology .items .item i {
+#services .items .item i {
     margin-right: 1.3rem;
     align-self: center;
     margin-bottom: 0;
 }
 
 /* ALTERAR AS DIMENSÕES */
-#dimensions .items {
+#clients .items {
     display: block;
     padding: 1rem;
 }
 
-#dimensions .items .item {
+#clients .items .item {
     display: block;
     text-align: center;
 }
 
-#dimensions .items .item i {
+#clients .items .item i {
     margin-right: 1.3rem;
     align-self: center;
     margin-bottom: 0;
     padding: 0.5rem;
 }
 
-#dimensions .items .item h3 {
+#clients .items .item h3 {
     margin-right: 1.3rem;
     align-self: center;
     margin-bottom: 0;
-}
-
-/* ALTERARA AS FACEIS */
-#faceis .items {
-    display: block;
-}
-
-#faceis .items .item {
-    border-bottom: #444 dotted 1px;
-    border-top: #444 dotted 1px;
-    border-right: 0px;
-    border-left: 0px;
-}
-
-#faceis .items img {
-    width: 13%;
-    margin-top: 2.2rem;
-}
-
-#faceis .items h3 {
-    font-size: 1rem;
 }
 
 /* TELAS VIEW PORT MIN: 501PX E MAX: 767PX*/
@@ -78,7 +57,7 @@
     }
 
     #showcase {
-        background: #333 url("../imagem/cla-mlkj.jpg") no-repeat center center/cover;
+        background: #333 url("../imagem/carrinho-compras-1.jpg") no-repeat center center/cover;
         opacity: 0.9;
     }
 
@@ -118,25 +97,21 @@
         padding: 0.5rem;
     }
 
-    .dropdown-content {
-        font-size: 0.9rem;
-    }
-
     #showcase {
-        height: 1100px;
+        height: 600px;
     }
 
     #showcase .showcase-content {
-        height: 1100px;
+        height: 600px;
         top: 127px;
     }
 
     #showcase .showcase-content h1 {
-        padding-bottom: 2rem;
+        padding-bottom: 1.9rem;
     }
 
     #showcase {
-        background: #333 url("../imagem/cla-mlkj-1.jpg") no-repeat center center/cover;
+        background: #333 url("../imagem/carrinho-compras-3.jpg") no-repeat center center/cover;
         opacity: 0.9;
     }
 
@@ -171,16 +146,16 @@
 @media (max-width: 460px) {
     
     #showcase {
-        height: 1200px;
+        height: 700px;
     }
 
     #showcase .showcase-content {
-        height: 1200px;
-        top: 127px;
+        height: 700px;
+        top: 125px;
     }
 
     .l-heading {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
 
