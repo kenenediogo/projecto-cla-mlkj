@@ -146,11 +146,11 @@
 @media (max-width: 460px) {
     
     #showcase {
-        height: 1000px;
+        height: 800px;
     }
 
     #showcase .showcase-content {
-        height: 1000px;
+        height: 800px;
         top: 125px;
     }
 
