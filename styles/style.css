@@ -299,10 +299,12 @@ p {
     padding: 1rem;
 }
 
-#clients .items .item i {
-    background-color: #000000;
+#clients .items .item img {
+    /*background-color: #000000;*/
     padding: 1rem;
-    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
     margin-bottom: 1rem;
 }
 
