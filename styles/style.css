@@ -268,13 +268,6 @@ p {
     margin-bottom: 1rem;
 }
 
-#services .items img {
-    padding: 1rem;
-    width: 400px;
-    height: auto;
-    margin-bottom: 1rem;
-}
-
 /* SECTION: TEAM: IMAGEM */
 #team {
     display: flex;
