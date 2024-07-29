@@ -158,6 +158,13 @@
         font-size: 1.5rem;
     }
 
+    #social .items .item-1 img {
+        /*background-color: #000000;*/
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
 
 }
 
