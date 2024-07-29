@@ -370,4 +370,9 @@ p {
     border-radius: 50px;
 }
 
+#social .items .item-1 a {
+    text-decoration: none;
+    color: black;
+}
+
 
