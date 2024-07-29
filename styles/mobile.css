@@ -142,9 +142,19 @@
 
     #social .items {
         display: flex;
-        padding: 0.1rem;
+        padding: 1rem;
     }
-
+    
+    #social .items .item-1 {
+        flex: auto;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    #social .items .item-1 h3 {
+        padding: 1rem;
+    }
+    
     #social .items .item-1 img {
         /*background-color: #000000;*/
         width: 50px;
